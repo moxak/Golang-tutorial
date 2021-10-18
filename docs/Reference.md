@@ -1,27 +1,29 @@
-# Go-lang Tutorial
-
-![logo](https://golang.org/lib/godoc/images/go-logo-blue.svg)
+# リファレンス | Reference
 
 [英語 - The Go Programming Language](https://golang.org/)
 
 [日本語 - Go言語入門](https://www.tohoho-web.com/ex/golang.html)
 
-![image1](fiveyears.jpg)
+![image1](..//img//fiveyears.jpg)
 
-**インストール**
+## インストール
 
 ```bash
 brew install go
 ```
 
-**コンパイル**
+## 実行
+
+- コンパイル：「`go build ファイル名`」
+- 実行ファイルを実行することでプログラムが動作する
 
 ```bash
 go build hello.go
-go ./hello
+./hello
 ```
 
-**実行**
+- コンパイル＋実行「`go run ファイル名`」
+- 実行ファイルは生成されない
 
 ```bash
 go run hello.go
